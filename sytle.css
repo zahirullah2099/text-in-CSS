@@ -1,0 +1,190 @@
+/* h1{
+    color: blueviolet;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family: cursive;
+}
+.para1{
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+/* FONT SIZE */
+/* pexil */
+/* p{
+    font-size: 16px;
+} */
+/* PERCENTAGE */
+/* P{
+    font-size:medium;
+} */
+/* EM */
+/* p{
+    font-size: 1em;
+} */
+
+/* FONT FACE */
+/* @font-face {
+    font-family: 'test';
+    src: url('D:\data\text-in-CSS\fonts\Anton-Regular.ttf');
+}
+h1{
+    font-family: text;
+    color: red;
+} */
+
+/* FONT WEIGHT */
+/* h1{
+font-weight: lighter;
+} */
+
+/* FONT STYLE */
+ 
+/* .normal{
+    font-style: normal;
+}
+.oblique{
+    font-style: oblique;
+}
+.italic{
+    font-style: italic;
+} */
+
+/* FONT TRANSFORMATION */
+/* h1{
+    text-transform: capitalize;
+}
+h2{
+    text-transform: ;
+} */
+
+/* TEXT DECORATION */
+/* #underline{
+    text-decoration: underline;
+}
+#overLine{
+    text-decoration: overline;
+}
+#linethrough{
+    text-decoration: line-through;
+}
+#blink{
+    text-decoration: blink;
+} */
+
+/* LINE HEIGHT/LEADING */
+/* p{
+    line-height: 12px;
+} */
+/* letter and word spacing */
+
+/* word-spacing */
+/* h1{
+    word-spacing: -12px;
+} */
+/* letter spacing */
+/* h1{
+    letter-spacing: 8px;
+} */
+
+/* TEXT ALIGN  */
+/* h1{
+    text-align: center;
+}
+p{
+    text-align: justify; 
+      this property align the text from both right and left side  
+} */
+
+/* VERTICAL ALIGN */
+/* img{
+    vertical-align:middle;
+} */
+/* h1{
+    text-indent: 40px;
+}
+p{
+    text-indent: 50px;
+} */
+
+/* TEXT SHADOW */
+/* h1{
+    background-color: #eeeeee;
+    text-transform: uppercase;
+    color: #666666;
+    text-shadow: 1px 1px 0px #000000;
+} */
+
+/* FIRST LETTER AND FIRST LINE */
+/* psuedo elements */
+/* h1::first-letter{
+color: red;
+}
+p::first-line{
+color: blue;
+} */
+
+/* STYLING LINKS */
+/* a:link{
+    color: green;
+}
+a:visited{
+    color: red;
+} */
+/* RESPONDING USER */
+/* hover */
+/* input.btn:hover{
+   background-color: rgb(5, 235, 28);
+}
+input.btn:active{
+   background-color: rgb(235, 135, 5);
+}
+input.text-box:active{
+   background-color: rgb(235, 135, 5);
+} */
+/* input.btn:focus{
+   background-color: rgb(235, 5, 59);
+}
+input.text-box:focus{
+   background-color: rgb(5, 235, 59);
+} */
+
+/* ATTRIBUTE SELECTORS */
+/* EXISTANCE */
+/* h1[test]{
+    color: green;
+}
+p[test]{
+    text-transform: uppercase;
+    color: brown;
+} */
+/* EQUALITY    for selection specific attrirbute value*/
+/* P[test="para"]{
+    color: green;
+}
+h1[name="hii"]{
+    background-color: aqua;
+} */
+
+/* SPACE    for multiple attribute values */
+/* h1[name~="tim"]{
+    background-color: blueviolet; 
+} */
+ 
+/* PREFIX  for selecting those attribute whose value begin with 'b' letter */
+/* h1[test^="b"]{
+    color: chartreuse;
+} */
+
+/* SUBSTRING     target those attribute whose spell consist of 'wo' letters*/
+/* h1[test*="wo"]{
+    background-color: aqua;
+} */
+
+/* SUFFIX */
+h1[test*="k"]{
+    color: rgb(0, 255, 0);
+}
+
